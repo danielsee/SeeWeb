@@ -1,0 +1,40 @@
+﻿<style type="text/css">
+/*About us CSS*/
+
+
+
+.logo:hover {
+	/*background-color: transparent ;*/
+}
+
+body,h1,h2,h3,h4,h5,h6{font-family: "Montserrat", sans-serif;}
+div.info 
+{
+   border: thick aqua double;
+   text-align:  center;
+   margin-top: 10%; 
+   margin-right: 10%; 
+   margin-left:10%;
+}
+.title{
+
+   margin-right: 10%; 
+   margin-left:10%;
+   float: none;
+}
+hr {
+	width: 100%;
+	min-width: 100%;
+}
+
+h2.we-are-here{
+ text-align: justify;
+ 
+}
+div.google-map{
+	  float:none ;
+	  margin-left: 20%;
+	margin-right: 20%; 
+} 
+
+</style>

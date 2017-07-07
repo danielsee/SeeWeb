@@ -1,0 +1,204 @@
+﻿
+
+<style type="text/css">
+
+img{
+/*display image*/
+/*for displaying in center */
+display: block;
+margin: auto;
+max-width: 100%; 
+min-height:50%;
+	}
+
+a.menu{
+    margin-left: 2%;
+    background-color:black;
+    padding: 0.8em;
+}
+
+a:link {
+	color: red ;
+	text-decoration: none ;
+}
+a:visited {
+	color: red;
+}
+a:hover{
+    background-color:red;
+	color:white  ;
+}
+
+
+li.menu_bar_li{  
+	list-style: none ;
+   /* position: relative ;*/
+    float: left ;
+    width:20%; 
+   /* margin-bottom: 3%;*/
+    margin-left: 5%;
+    }
+    
+      
+ul.menu_bar{
+       padding: 1em;
+       width: 100%; 
+       max-width:100%;
+      
+	  }
+nav{
+    width: 100%;
+    height:27%;
+    background-color:black;
+    position: fixed;
+	z-index:2;
+	
+}
+.dropbtn {
+    list-style: none ;
+	text-align: center ;
+    cursor: pointer;
+    float:  left;
+ width: 20%;
+
+     }
+.dropdown {
+    list-style: none ;
+    position: relative;
+    display:list-item;
+    margin-bottom: 4%;
+     margin-left: 10%;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 4%;
+    }
+.bottom_item{
+	border-bottom: thin #CCFFFF inset ;
+}
+.dropdown-content a {
+    height: 25%; 
+    color: red;
+    padding: 5%;
+    text-decoration: none;
+    display: block;
+    border-top: thin #CCFFFF inset ;
+}
+
+.dropdown-content a:hover {
+background-color:red;
+color: white ;
+}
+
+.dropdown:hover .dropdown-content {
+       display: list-item ;
+}
+
+.dropdown:hover .dropbtn {
+  }
+ /*when user select onto the current page and the hover effect*/
+ .self 
+{
+	cursor: default ;
+	border-bottom: thin aqua solid ;
+	opacity:0.9;
+	
+}
+ .self:hover
+{
+	background-color: black;	
+	color: red;
+}
+/*end*/
+.homepage-logo:hover{
+	background-color: black;
+}
+.background-pic{
+position: absolute ;
+	opacity:0.5;
+	z-index: -1;
+}
+footer {
+
+	bottom: 0;
+}
+
+a.google-form{
+	text-decoration: underline ;
+	color: Highlight ;
+}
+/*blink function*/
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+	 animation: blink .75s linear infinite;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+/*end blink*/
+ </style>
+
+/*HTML nav bar codes*/
+
+
+/*<header>
+<nav>
+<h1 style="left: 0px; top: 0px; width: 457px; height: 65px">
+<img src="logo_new.JPG" alt="Gay Hong Trading" class="auto-style1" width="403" height="80">
+<h4 align="right" style="color: white">Search Products Keyword
+<input type="text" name="search" size="25" >
+<input type="submit" name="confirm" value="confirm ">
+</h4>
+</h1>
+<ul class="menu_bar">
+<li class="menu_bar_li" ><a href="About Us.html" class="menu">ABOUT US</a></li>
+<li class="menu_bar_li"><a href="Ducting_Services.html" class="menu">Ducting Services</a></li>
+<div class="dropdown">
+<li  class="dropbtn">
+<a href="#" class="menu"  style="padding: 1em">Categories</a>
+<div class="dropdown-content">
+    <a href="Categories.html"class="w3-animate-zoom">Zinc</a>
+    <a href="Categories.html"class="w3-animate-zoom">PVC</a>
+    <a href="Categories.html"class="w3-animate-zoom">Metal</a>
+     <a href="Categories.html"class="w3-animate-zoom">Aluminium</a>
+    <a href="Categories.html" class="w3-animate-zoom">Pipe</a>
+  </div>
+</li>
+</div>
+<li class="menu_bar_li" style="float: right "><a href="Homepage_chinese.html" class="menu">中文版</a></li>
+</ul>
+</nav>
+</header>
+*/
+
