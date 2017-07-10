@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Categories</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="javascript.js"></script>
+
+<link rel="stylesheet" type="text/css" href="navigation_bar.css ">
+
+
+<style type="text/css">
+img{
+display: block;
+margin: auto;
+max-width: 100%; 
+min-height:50%;
+	}
+body{
+	overflow: auto;
+	margin:  0px; 
+	background-image:url('two.jpg');
+	background-repeat: repeat;
+	background-position: center;
+	color: white;
+	
+}
+
+.logo:hover {
+	background-color: transparent;
+}
+
+.w3-display-container,.zoom{
+	size: 80%;
+	-moz-transition:-moz-transform 0.5s ease-in; 
+-webkit-transition:-webkit-transform 0.5s ease-in; 
+-o-transition:-o-transform 0.5s ease-in;
+
+}
+
+.w3-display-container:hover,.zoom:hover{
+-moz-transform:scale(1.2); 
+-webkit-transform:scale(1.2);
+-o-transform:scale(1.2);
+}
+
+/*polaraid*/
+</style>
+
+<nav>
+<ul class="menu_bar">
+<li class="menu_bar_li"><a href="About Us.html" class="menu about">About Us</a></li>
+<li class="menu_bar_li"><a href="Ducting_Services.html" class="menu">Ducting Services</a></li>
+<li class="menu_bar_li" style="float: left ">
+<a href="Homepage_chinese.html" class="menu">中文版</a></li>
+<div class="dropdown">
+<li  class="dropbtn">
+<a href="#" class="menu"  style="padding: 1em">Categories</a>
+<div class="dropdown-content">
+    <a href="round_bar.html"class="w3-animate-zoom">Round Bar</a>
+    <a href="structural_steel.html"class="w3-animate-zoom">Structural Steel</a>
+    <a href="#"class="w3-animate-zoom self" onclick="self()">Others</a>
+
+  </div>
+</li>
+</div>
+
+<img src="latestLogo.JPG" alt="Gay Hong Trading"   height="54" width="454"></ul>
+</nav>
+
+<br/><br/><br/><br/>
+<br/><br/><br/><br/>
+<br/><br/>
+<!--picture slide show  
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides w3-animate-fading" src="Products/angle bar.jpg" >
+  <img class="mySlides w3-animate-fading" src="Products/gas bottle.jpg" style="max-width: 200% " >
+  <img class="mySlides w3-animate-fading" src="Products/download.jpg" style="max-width: 200% ">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>-->
+</div>
+</head>
+<body>
+<h2>Other Products</h2>
+<div class="w3-row">
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="Products/download.jpg" height="138" width="172" class="zoom"  >
+        <p>Round Bar<br><b>RM500</b></p>
+      </div>
+      <div class="w3-container">
+        <img src="Products/angle bar.jpg" height="144" width="170" class="zoom">
+        <p>Angle Bar<br><b>RM100</b><br>hello</p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="Products/flat bar.jpg">
+           <span class="w3-tag w3-display-topleft">Stock Clearance</span>
+          </div>
+        <p>Flat Bar<br><b>RM200</b></p>
+      </div>
+      
+      <div class="w3-container">
+      <div class="w3-display-container"> <!--display small word icon container-->
+        <img src="Products/flat bar.jpg" >
+          <span class="w3-tag w3-display-topleft">New</span>
+          </div>
+        <p>flat bar1<br><b>RM250</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="Products/flat bar.jpg"class="zoom"  >
+        <p>flatbar 2 red<br><b>250</b></p>
+      </div>
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="Products/flat bar.jpg">
+          <span class="w3-tag w3-display-topleft">More Images</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button">Read More</button>
+          </div>
+        </div>
+        <p>flat bar 2<br><b>250</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="Products/flat bar.jpg"class="zoom" >
+        
+        <p>sample<br><b>100</b></p>
+      </div>
+      <div class="w3-container">
+        <img src="Products/flat bar.jpg"class="zoom" >
+        <p>sample 1 <br><b>100</b></p>
+      </div>
+    </div>
+  </div>
+<!--one row of products list-->
+<div class="w3-row">
+<div class="w3-col l3 s6">
+ <div class="w3-container">
+        <img src="Products/flat bar.jpg"class="zoom"  >
+        <p>new 1<br><b>RM 10</b></p>
+      </div>
+</div>
+<div class="w3-col l3 s6">
+ <div class="w3-container">
+        <img src="Products/flat bar.jpg"class="zoom" >
+             <p>new 2<br><b>RM10</b></p>
+      </div>
+       </div>
+</div>
+
+<div class="w3-center" >
+<div class="w3-bar w3-border"style="background-color: black ">
+  <a href="#" class="w3-bar-item w3-button">&laquo;</a>
+  <a href="#" class="w3-bar-item w3-button">1</a>
+  <a href="#" class="w3-bar-item w3-button">2</a>
+  <a href="#" class="w3-bar-item w3-button">3</a>
+  <a href="#" class="w3-bar-item w3-button">4</a>
+  <a href="#" class="w3-bar-item w3-button">&raquo;</a>
+  
+</div>
+</div>
+<hr style="width: 100%">
+<footer font style="text-align: center">@ Gay Hong Trading 2017   </footer>
+
+</body>
+</html>
