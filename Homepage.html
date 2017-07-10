@@ -4,6 +4,12 @@
 6)each of the page will display if u already selected that specific page
 ******api kEY =AIzaSyDztzwRineYoWM2dnl3ki4Q8jYNJ6SmfSE
 
+self for all
+navigation
+logo back to main page
+
+
+
 -->
 
 <!DOCTYPE html>
@@ -41,7 +47,7 @@ body{
 }
 p{
 	text-align: center;
-	font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif", "KaiTi", "楷体", STKaiti, "华文楷体", serif;
 	font-size: 1em;
    }
 div.products{
@@ -107,6 +113,7 @@ body,h1,h2,h3,h4,h5,h6{font-family: "Montserrat", sans-serif;}
 <br/><br/><br/><br/>
 <br/><br/><br/><br/>
 <br/><br/>
+<!--<iframe width="640" height="360" src="https://www.youtube.com/embed/qIF8xvSA0Gw?ecver=1" frameborder="0" allowfullscreen></iframe>-->
 <!--picture slide show  -->
 <div class="w3-content w3-section" style="max-width:500px">
   <img class="mySlides w3-animate-fading" src="Products/angle bar.jpg" >
@@ -180,54 +187,8 @@ body,h1,h2,h3,h4,h5,h6{font-family: "Montserrat", sans-serif;}
 </div>
 <br/><br/>
 <footer font style="text-align: center">@ Gay Hong Trading 2017 Credited-Daniel See  </footer>
+<script src="javascript.js"></script>
 
-<!--Java script start -->
-<script>
-/*
-(click button text script)
-
-
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-
-*/
-
-
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-    // Take the user to a different screen here.
-
-}
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 3000); /*秒數變換*/
-    }
-</script>
-<!--Java script end -->
 
 </body>
 

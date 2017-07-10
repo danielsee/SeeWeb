@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="navigation_bar.css ">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+<link rel="icon" href="two.JPG">
 <title>Ducting Service</title>
 
 <style type="text/css" >
@@ -35,6 +35,7 @@ body{
 
 
 p{
+ 
 	text-align: center;
 	font-family: "Montserrat", sans-serif;
 	font-size: 1em ;
@@ -42,16 +43,20 @@ p{
 	margin-right: 10%;
 	width:80%;
    }
+
+
+   
   </style>
+
 
 <!--Menu Bar -->
 <header>
 <nav>
 <ul class="menu_bar">
-<li class="menu_bar_li"><a href="About Us.html" class="menu about">About Us</a></li>
-<li class="menu_bar_li"><a href="Ducting_Services.html" class="menu">Ducting Services</a></li>
+<li class="menu_bar_li"><a href="About Us.html" class="menu">About Us</a></li>
+<li class="menu_bar_li"><a href="#" class="menu self" title="You have selected this page" onclick="self()">Ducting Services</a></li>
 <li class="menu_bar_li" style="float: left ">
-<a href="Homepage_chinese.html" class="menu">中文版</a></li>
+<a href="Ducting_Services_chinese.html" class="menu"><b>中文版</b></a></li>
 
 <div class="dropdown">
 <li  class="dropbtn">
@@ -64,8 +69,11 @@ p{
   </div>
 </li>
 </div>
+	<li>
+ <a href="Homepage.html">
+<img src="latestLogo.jpg" alt="Gay Hong Trading" height="54" width="454" title="Gay Hong Trading"></a></li>
 
-<img src="latestLogo.jpg" alt="Gay Hong Trading"   height="54" width="454" style="align-self: center"></ul>
+</ul>
 </nav>
 </header>
 <br/><br/><br/><br/>
@@ -100,21 +108,9 @@ that it will most probably be split into several lines by a browser.This is a no
 that it will most probably be split into several lines by a browser.This is a normal text paragraph which contains so many characters
 that it will most probably be split into several lines by a browser.</p>
 
-<script>var myIndex = 0;
-carousel();
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 4000); /*秒數變換*/
-    }
-</script>
+<script src="javascript.js"></script>
+
 </body>
 
 </html>

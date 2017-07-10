@@ -1,6 +1,4 @@
-﻿
-
-<style type="text/css">
+﻿<style type="text/css">
 
 img{
 /*display image*/
@@ -38,7 +36,9 @@ li.menu_bar_li{
    /* margin-bottom: 3%;*/
     margin-left: 5%;
     }
-    
+    li{
+        list-style: none;
+    }
       
 ul.menu_bar{
        padding: 1em;
