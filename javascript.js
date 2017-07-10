@@ -1,6 +1,6 @@
 var myIndex = 0;
 carousel();
-<link rel="icon" href="two.JPG">
+
 function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
