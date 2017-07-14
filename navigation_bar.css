@@ -108,13 +108,13 @@ color: white ;
 	cursor: default ;
 	border-bottom: thin aqua solid ;
 	opacity:0.9;
-	
+	background-color: azure;
 }
- .self:hover
+ /*.self:hover
 {
 	background-color: black;	
 	color: red;
-}
+}*/
 /*end*/
 .homepage-logo:hover{
 	background-color: black;
