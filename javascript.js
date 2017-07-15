@@ -1,6 +1,6 @@
 var myIndex = 0;
 carousel();
-
+detectmob();
 function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
@@ -16,20 +16,27 @@ function carousel() {
      function self()
     {
       
-   alert("You have selected this page and Please try for other.")
+   alert("You have selected this page and Please try for other.");
 
     }
    
     function self_chinese()
     {
       
-   alert(" 您正在此頁，請更換頁面.")
+   alert(" 您正在此頁，請更換頁面.");
 
     }
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-    // Take the user to a different screen here.
-
+  function detectmob() {
+   if(window.innerWidth <= 800 && window.innerHeight <= 600) {
+    // return true;
+    alert("mobile");
+   } else {
+    alert("PC");
+   }
 }
+
+
+
 
 /*
 (click button text script)
