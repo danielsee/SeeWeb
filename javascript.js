@@ -13,24 +13,18 @@ function carousel() {
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 3000); /*秒數變換*/
     }
-    
      function self()
-    {
-      
+    { 
    alert("You have selected this page and Please try for other.");
-
     }
-   
     function self_chinese()
-    {
-      
+    { 
    alert(" 您正在此頁，請更換頁面.");
-
     }
   function detectmob() {
     var w=window.innerWidth;
     var h=window.innerHeight;
-   if(w>= 800) 
+   if(w<1000) 
    {
     alert("PC width is "+w+"  height is "+h);
    
@@ -43,10 +37,6 @@ function carousel() {
 
    }
 }
-
-
-
-
 /*
 (click button text script)
 
