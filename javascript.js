@@ -31,7 +31,7 @@ function carousel() {
    
    } else {
      alert("walao Mobile width is "+w+"  height is "+h);
-     document.getElementById("change").style.height="25%";
+     document.getElementById("change").style.height="10%";
      document.getElementById("change").style.fontSize="0.5em";
      document.getElementById("change_table").style.fontSize="0.5em";
      document.getElementById("change_table").style.height="50%";
