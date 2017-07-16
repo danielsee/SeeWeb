@@ -1,6 +1,7 @@
 var myIndex = 0;
 carousel();
 detectmob();
+
 function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
@@ -27,12 +28,15 @@ function carousel() {
 
     }
   function detectmob() {
-   if(window.innerWidth <= 800 && window.innerHeight <= 600) {
-    // return true;
-    console.log("mobile");
-    alert("mobile");
-   } else {
+    var w=window.innerWidth;
+    var h=window.innerHeight;
+   if(w>= 800) 
+   {
     alert("PC");
+   
+   } else {
+    alert("Mobile and height changed");
+     document.getElementById("change").style.height="25%";
    }
 }
 
