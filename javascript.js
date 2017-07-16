@@ -32,11 +32,15 @@ function carousel() {
     var h=window.innerHeight;
    if(w>= 800) 
    {
-    alert("PC");
+    alert("PC width is "+w+"  height is "+h);
    
    } else {
-    alert("Mobile and height changed");
+     alert("Mobile width is "+w+"  height is "+h);
      document.getElementById("change").style.height="25%";
+     document.getElementById("change").style.fontSize="0.5em";
+     document.getElementById("change_table").style.fontSize="0.5em";
+     document.getElementById("change_table").style.height="50%";
+
    }
 }
 
