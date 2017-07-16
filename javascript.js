@@ -24,6 +24,7 @@ function carousel() {
   function detectmob() {
     var w=window.innerWidth;
     var h=window.innerHeight;
+    
    if(h<1000) 
    {
     alert("walao PC width is "+w+"  height is "+h);
@@ -34,7 +35,7 @@ function carousel() {
      document.getElementById("change").style.fontSize="0.5em";
      document.getElementById("change_table").style.fontSize="0.5em";
      document.getElementById("change_table").style.height="50%";
-      document.getElementById("change_table").style.
+     
    }
 }
 /*
