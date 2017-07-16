@@ -24,17 +24,17 @@ function carousel() {
   function detectmob() {
     var w=window.innerWidth;
     var h=window.innerHeight;
-   if(w<1000) 
+   if(h<1000) 
    {
-    alert("PC width is "+w+"  height is "+h);
+    alert("walao PC width is "+w+"  height is "+h);
    
    } else {
-     alert("Mobile width is "+w+"  height is "+h);
+     alert("walao Mobile width is "+w+"  height is "+h);
      document.getElementById("change").style.height="25%";
      document.getElementById("change").style.fontSize="0.5em";
      document.getElementById("change_table").style.fontSize="0.5em";
      document.getElementById("change_table").style.height="50%";
-
+      document.getElementById("change_table").style.
    }
 }
 /*
