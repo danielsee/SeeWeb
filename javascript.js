@@ -23,7 +23,7 @@ function carousel() {
     }
   function detectmob() {
     var w=window.innerWidth;
-    var h=window.innerHeight;
+    var h=screen.innerHeight;
     
    if(h>1000) 
    {
