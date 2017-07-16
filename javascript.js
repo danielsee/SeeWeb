@@ -25,7 +25,7 @@ function carousel() {
     var w=window.innerWidth;
     var h=window.innerHeight;
     
-   if(h<1000) 
+   if(h>1000) 
    {
     alert("walao PC width is "+w+"  height is "+h);
    
