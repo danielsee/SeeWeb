@@ -22,10 +22,10 @@ function carousel() {
    alert(" 您正在此頁，請更換頁面.");
     }
   function detectmob() {
-    var w=window.innerWidth;
-    var h=screen.innerHeight;
+    var w=window.outerWidth;
+    var h=window.outerHeight;
     
-   if(h>1000) 
+   if (w>500) 
    {
     alert("walao PC width is "+w+"  height is "+h);
    
