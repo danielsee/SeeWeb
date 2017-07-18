@@ -87,10 +87,10 @@ body,h1,h2,h3,h4,h5,h6{font-family: "Montserrat", sans-serif;}
 
 <nav id="change">
 <ul class="menu_bar">
-<li class="menu_bar_li mobile_nav_element"><a href="About Us.html" class="menu about mobile-href">About Us</a></li>
-<li class="menu_bar_li mobile_nav_element" ><a href="Ducting_Services.html" class="menu mobile-href">Ducting_Services</a></li>
+<li class="menu_bar_li mobile_nav_element"><a href="About Us.html" class="menu about">About Us</a></li>
+<li class="menu_bar_li mobile_nav_element" ><a href="Ducting_Services.html" class="menu">Ducting_Services</a></li>
 <li class="menu_bar_li mobile_nav_element" >
-<a href="Homepage_chinese.html" class="menu mobile-href"  style="margin-left: 10%" >中文版</a></li>
+<a href="Homepage_chinese.html" class="menu "  style="margin-left: 10%" >中文版</a></li>
 <div class="dropdown">
 <li  class="dropbtn mobile_nav_element">
 <a href="#" class="menu">Categories</a>
@@ -186,7 +186,22 @@ body,h1,h2,h3,h4,h5,h6{font-family: "Montserrat", sans-serif;}
 </div>
 <br/><br/>
 <footer font style="text-align: center">@ Gay Hong Trading 2017 Credited-Daniel See  </footer>
-<script src="javascript.js"></script>
+<script src="javascript.js">
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); /*秒數變換*/
+    }
+
+	
+</script>
 
 
 </body>
