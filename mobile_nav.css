@@ -5,16 +5,19 @@ width:80%;
 margin-left: 5%;
 font-weight: bolder;
 float: left;
-
-
-}
-
-.mobile_href
-{
- padding: 2em;
- background-color: aqua;
+padding: 0.1em;
 
 }
+a.menu{
+    margin-left: 2%;
+    background-color:black;
+   /* padding: 0.8em;*/
+   padding: 0.8em;
+  width: 120%;
+  height: 120%;
+}
+
+
 #change{
     height:170px;
     
@@ -24,7 +27,8 @@ float: left;
     position: static;
     display:list-item;
   /*  margin-bottom: 20%;*/
-     /*margin-left: 1%;*/
+   /* margin-left: 1%;*/
+   
   }
 
     .dropbtn {
@@ -32,15 +36,17 @@ float: left;
 	text-align: center ;
     cursor: pointer;
     float:  left;
-       width: 10%;
+    width: 10%;
+   
      }
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: black;
-    min-width:1em;
+    min-width:20%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+
    /* margin-left: 4%;*/
     }
