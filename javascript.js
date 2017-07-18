@@ -31,17 +31,30 @@ function carousel() {
    
    } else {
      alert("walao Mobile width is "+w+"  height is "+h);
-     document.getElementById("change").style.height="10%";
-     document.getElementById("change").style.fontSize="0.5em";
-     document.getElementById("change_table").style.fontSize="0.5em";
-     document.getElementById("change_table").style.height="50%";
      
-   }
+      /*var fileref=document.createElement("link")
+        fileref.setAttribute("rel", "stylesheet")
+        fileref.setAttribute("type", "text/css")
+        fileref.setAttribute("href", "mobile_nav.css")*/
+      //  loadjscssfile("mobile_nav.css", "css") ////dynamically load and add this .css file
+//  function loadcss(url) {
+
+  //load from mobile_nav de css if width is mobile size
+   var head = document.getElementsByTagName('head')[0],
+   link = document.createElement('link');
+   link.type = 'text/css';
+   link.rel = 'stylesheet';
+   link.href = "mobile_nav.css";
+   head.appendChild(link);
+   alert("in css");
+   return link;
+// }
+
+  }
+
 }
 /*
 (click button text script)
-
-
 var slideIndex = 1;
 showDivs(slideIndex);
 

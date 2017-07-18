@@ -1,0 +1,19 @@
+.mobile_nav_element
+{
+font-size: 1em;
+width:50%;
+margin-left: 20%;
+font-weight: bolder;
+
+/*drop down button de
+   list-style: none ;
+	text-align: center ;
+    cursor: pointer;
+    float:  left;
+ width: 20%;*/
+}
+#change{
+
+    height:170px;
+    
+}
