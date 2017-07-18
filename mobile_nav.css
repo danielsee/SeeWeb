@@ -11,7 +11,9 @@ margin-left: 5%;
 font-weight: bolder;
 /*float: left;*/
 padding: 0.1em;
-
+/*these two lines below is prevent overflow text*/
+white-space: nowrap;
+  overflow: hidden;
 }
 a.menu{
    /* margin-left: 2%;*/
