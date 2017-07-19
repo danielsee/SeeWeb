@@ -58,15 +58,28 @@ nav{
 	
 }
 
+
 .product
 {
 height:200px;
  width:200px;
-
-
 }
 
+.wrapper {
+    display:none;
+  
+}
+.button {
+ color: lightgreen;
+   text-align: center;
+ 
+}
+a.button-hover:hover{
 
+    background-color: unset;
+    color: black;
+    
+}
 .dropbtn {
     list-style: none ;
 	text-align: center ;
@@ -96,6 +109,7 @@ height:200px;
 .bottom_item{
 	border-bottom: thin #CCFFFF inset ;
 }
+
 .dropdown-content a {
     height: 25%; 
     color: red;

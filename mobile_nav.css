@@ -1,4 +1,4 @@
-/*replace all the things with nav bar then adjust*/
+
 img.logo{
 /*margin-left: 20%;*/
 
@@ -145,6 +145,20 @@ a.google-form{
 	text-decoration: underline ;
 	color: Highlight ;
 }
+/*for button usage : center positioning*/
+.wrapper {
+    text-align: center;
+
+}
+
+.button {
+ margin:auto;
+  display: inline-block;
+   text-align: center;
+
+}
+
+
 /*blink function*/
 .blink {
 	-webkit-animation: blink .75s linear infinite;
