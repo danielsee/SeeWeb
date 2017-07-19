@@ -117,10 +117,12 @@ color: white ;
 	background-color: black;	
 	color: red;
 }
-/*end*/
-.homepage-logo:hover{
-	background-color: black;
+.footer {
+
+  text-align: center;
+ 
 }
+
 .background-pic{
 position: absolute ;
 	opacity:0.5;
