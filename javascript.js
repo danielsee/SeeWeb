@@ -17,9 +17,9 @@ detectmob();
     
    if (w>500) 
    {
-    alert("ddd walao PC width is "+w+"  height is "+h);
+    alert("daniel walao PC width is "+w+"  height is "+h);
    } else {
-     alert("ddd walao Mobile width is "+w+"  height is "+h);
+     alert("daniel walao Mobile width is "+w+"  height is "+h);
      
       /*var fileref=document.createElement("link")
         fileref.setAttribute("rel", "stylesheet")

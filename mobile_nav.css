@@ -35,12 +35,13 @@ li.menu_bar_li{
     width: 40%;;
     margin-left: 10%;
     margin-bottom: 5%;
+    font-weight: bolder;
     }
  
 
 nav{
     width: 100%;
-    height:220px;
+    height:230px;
     background-color:black;
     position: fixed;
 	z-index:2;
@@ -60,6 +61,7 @@ nav{
     display:list-item;
     margin-bottom: 4%;
      margin-left: 10%;
+     font-weight: bolder;
   }
 
 .dropdown-content {
@@ -71,6 +73,7 @@ nav{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     margin-left: 4%;
+    font-weight: bolder;
     }
 .bottom_item{
 	border-bottom: thin #CCFFFF inset ;
