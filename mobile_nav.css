@@ -2,14 +2,12 @@
 img.logo{
 /*margin-left: 20%;*/
 
-position:static;
-
 }
 img{
 /*display image*/
 /*for displaying in center */
 display: block;
-/*margin: auto;*/
+margin: auto;
 max-width: 80%; 
 max-height:80%;}
 
@@ -43,7 +41,7 @@ li.menu_bar_li{
     font-weight: bolder;
   
     }
- 
+
 
 nav{
     width: 100%;
