@@ -18,6 +18,14 @@ detectmob();
    if (w>500) 
    {
     alert("123 PC width is "+w+"  height is "+h);
+    var head = document.getElementsByTagName('head')[0],
+   link = document.createElement('link');
+   link.type = 'text/css';
+   link.rel = 'stylesheet';
+   link.href = "navigation_bar.css";
+   head.appendChild(link);
+   alert("in css");
+   return link;
    } else {
      alert("123 Mobile width is "+w+"  height is "+h);
      
