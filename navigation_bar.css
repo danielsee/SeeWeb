@@ -65,9 +65,13 @@ height:200px;
  width:200px;
 }
 
-.wrapper {
-    display:none;
+.phone {
+   display:none;
   
+}
+.wrapper {
+    text-align: center;
+
 }
 .button {
  color: lightgreen;
@@ -75,7 +79,9 @@ height:200px;
  
 }
 a.button-hover:hover{
-
+margin:auto;
+  display: inline-block;
+   text-align: center;
     background-color: unset;
     color: black;
     

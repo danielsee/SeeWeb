@@ -146,15 +146,24 @@ a.google-form{
 	color: Highlight ;
 }
 /*for button usage : center positioning*/
+ li{
+        list-style: none;
+    }
+      
+.phone{
+width:100%;
+    
+}
 .wrapper {
     text-align: center;
 
 }
 
 .button {
- margin:auto;
-  display: inline-block;
-   text-align: center;
+    color: lightgreen;
+    margin:auto;
+     display: inline-block;
+    text-align: center;
 
 }
 
