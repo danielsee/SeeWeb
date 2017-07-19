@@ -8,7 +8,9 @@ max-width: 100%;
 min-height:50%;
 	
     }
-
+a{
+    color: red
+}
 a.menu{
     margin-left: 2%;
     background-color:black;
