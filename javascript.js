@@ -18,7 +18,6 @@ detectmob();
    if (w>500) 
    {
     alert("walao PC width is "+w+"  height is "+h);
-   
    } else {
      alert("walao Mobile width is "+w+"  height is "+h);
      
