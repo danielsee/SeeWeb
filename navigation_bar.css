@@ -36,7 +36,7 @@ li.menu_bar_li{
     width:20%;   /*20%*/
     margin-bottom: 3%;
     margin-left: 5%;
-
+    font-weight: bolder;
   
     }
     li{
@@ -71,6 +71,7 @@ nav{
     display:list-item;
     margin-bottom: 4%;
      margin-left: 10%;
+     font-weight: bolder;
   }
 
 .dropdown-content {
