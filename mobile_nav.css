@@ -23,6 +23,9 @@ a.menu{
 	color: red ;
 	text-decoration: none ;
 }*/
+a{
+    color: red;
+}
 a:visited {
 	color: red;
 }
