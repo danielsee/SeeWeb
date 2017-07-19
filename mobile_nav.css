@@ -3,7 +3,7 @@ img.logo{
 /*margin-left: 20%;*/
 margin-right: 80%;
 position: relative;
-
+display: none;
 }
 img{
 /*display image*/

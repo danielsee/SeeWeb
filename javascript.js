@@ -17,9 +17,9 @@ detectmob();
     
    if (w>500) 
    {
-    alert("relative walao PC width is "+w+"  height is "+h);
+    alert("none PC width is "+w+"  height is "+h);
    } else {
-     alert("relative walao Mobile width is "+w+"  height is "+h);
+     alert("none Mobile width is "+w+"  height is "+h);
      
       /*var fileref=document.createElement("link")
         fileref.setAttribute("rel", "stylesheet")
