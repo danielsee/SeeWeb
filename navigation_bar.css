@@ -57,6 +57,16 @@ nav{
 	z-index:2;
 	
 }
+
+.product
+{
+height:200px;
+ width:200px;
+
+
+}
+
+
 .dropbtn {
     list-style: none ;
 	text-align: center ;
