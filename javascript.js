@@ -24,7 +24,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "navigation_bar.css";
    head.appendChild(link);
-   alert("ilatest");
+   /*alert("ilatest");*/
    return link;
   } 
   
@@ -45,7 +45,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "mobile_nav.css";
    head.appendChild(link);
-   alert("in css");
+   alert("latest");
    return link;
 // }
 
