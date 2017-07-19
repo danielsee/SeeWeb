@@ -95,6 +95,11 @@ nav{
     border-top: thin #CCFFFF inset ;
 }
 
+
+body,h1,h2,h3,h4,h5,h6{font-family: "Montserrat", sans-serif;}
+
+
+
 .dropdown-content a:hover {
 background-color:red;
 color: white ;

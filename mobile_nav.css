@@ -102,8 +102,8 @@ color: white ;
        display: list-item ;
 }
 
-.dropdown:hover .dropbtn {
-  }
+body,h1,h2,h3,h4,h5,h6{font-family: "Montserrat", sans-serif;}
+
  /*when user select onto the current page and the hover effect*/
  .self 
 {
@@ -132,10 +132,7 @@ position: absolute ;
 	opacity:0.5;
 	z-index: -1;
 }
-footer {
 
-	bottom: 0;
-}
 
 a.google-form{
 	text-decoration: underline ;
