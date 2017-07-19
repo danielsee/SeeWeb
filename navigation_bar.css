@@ -128,9 +128,10 @@ position: absolute ;
 	opacity:0.5;
 	z-index: -1;
 }
-footer {
+.footer {
 
-	bottom: 0;
+  text-align: center;
+  margin-top: 90%;
 }
 
 a.google-form{

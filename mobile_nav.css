@@ -1,9 +1,9 @@
 /*replace all the things with nav bar then adjust*/
 img.logo{
 /*margin-left: 20%;*/
-margin-right: 80%;
-position: relative;
-display: none;
+
+position:static;
+
 }
 img{
 /*display image*/
