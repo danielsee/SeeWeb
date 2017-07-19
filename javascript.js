@@ -17,19 +17,19 @@ detectmob();
     
    if (w>500) 
    {
-    alert("456 PC width is "+w+"  height is "+h);
+   // alert("456 PC width is "+w+"  height is "+h);
     var head = document.getElementsByTagName('head')[0],
    link = document.createElement('link');
    link.type = 'text/css';
    link.rel = 'stylesheet';
    link.href = "navigation_bar.css";
    head.appendChild(link);
-   alert("in css");
+   //alert("in css");
    return link;
   } 
   
   else {
-     alert("456 Mobile width is "+w+"  height is "+h);
+    // alert("456 Mobile width is "+w+"  height is "+h);
      
       /*var fileref=document.createElement("link")
         fileref.setAttribute("rel", "stylesheet")
