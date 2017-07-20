@@ -58,7 +58,7 @@ nav{
 .product
 {
 height:200px;
- width:200px;
+width:200px;
 
 
 }
@@ -101,7 +101,7 @@ height:200px;
     display: block;
     border-top: thin #CCFFFF inset ;
 }
-
+ 
 .dropdown-content a:hover {
 background-color:red;
 color: white ;
@@ -170,13 +170,13 @@ width:100%;
 }
 
 
-/*blink function*/
+/*blink function    .75*/
 .blink {
-	-webkit-animation: blink .75s linear infinite;
-	-moz-animation: blink .75s linear infinite;
-	-ms-animation: blink .75s linear infinite;
-	-o-animation: blink .75s linear infinite;
-	 animation: blink .75s linear infinite;
+	-webkit-animation: blink 1s linear infinite;
+	-moz-animation: blink 1s linear infinite;
+	-ms-animation: blink 1s linear infinite;
+	-o-animation: blink 1s linear infinite;
+	 animation: blink 1s linear infinite;
 }
 @-webkit-keyframes blink {
 	0% { opacity: 1; }
