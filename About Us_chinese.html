@@ -13,7 +13,7 @@
 <script src="javascript.js"></script>
 <title>藝豐貿易:關於我們</title>
 <style>
-		figcaption{
+/*		figcaption{
 
 		text-align: center;
 	}
@@ -22,6 +22,12 @@ display: block;
 margin: auto;
 max-width: 100%; 
 min-height:50%;
+	}
+	img.factory{
+display: block;
+margin: auto;
+width:60%;
+height:60%;
 	}
 body{
 	overflow: auto; 
@@ -34,12 +40,71 @@ body{
 p{
 	text-align: center;
 	font-family: "Montserrat", sans-serif;
-	font-size: 15px ;
+	font-size: 1.5em ;
    }
 .factory_pic
 {
 	width: 52%;
+}*/
+
+	figcaption{text-align: center;}
+img{
+display: block;
+margin: auto;
+/*width:60%;
+height:60%;*/
+	}
+
+img.factory{
+display: block;
+margin: auto;
+width:60%;
+height:60%;
+	}
+body{
+	overflow: auto; 
+	max-width: 100%;
+	min-width:20%;
+	background-image:url('two.jpg');
+	background-repeat: repeat;
+	background-position: center;
+	color: white;
+	
 }
+p{
+	text-align: left;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.4em;
+   }
+body,h1,h2,h3,h4,h5,h6{font-family: "Montserrat", sans-serif;}
+div.info 
+{
+   border: thick aqua double;
+
+   margin-top: 10%; 
+   margin-right: 10%; 
+   margin-left:10%;
+}
+.title{
+
+text-align: center;
+ 
+}
+hr {
+	width: 100%;
+	min-width: 100%;
+}
+
+h2.we-are-here{
+ text-align: justify;
+ 
+}
+div.google-map{
+	  float:none ;
+	  margin-left: 20%;
+	margin-right: 20%; 
+} 
+
 </style>
 <!--header start
 <a href="Homepage.html">
@@ -80,13 +145,13 @@ p{
 
 <body>
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <p><a href="#" class="google-form blink" ><b>告訴我們你的想法</b></a></p>
 
 <div class="info">
 <ul>
 
-<p class="title"><b>藝豐貿易資訊</b></p>
+<p class="title area"><b>藝豐貿易資訊</b></p>
 
 <li><p><b>Address:</b> Taman Kapar 42200, Batu 10 Gay Hong Trading  (位于加埔TNB國能對面的工業區中端位置)</p></li>
 
@@ -101,7 +166,12 @@ p{
 </ul>
 </div>
 <hr>
-<img src="frontView.JPG"><br><img src="littleSignBoard.JPG">
+<figure>
+<img src="frontView.JPG" class="factory"><figcaption>Front View of Gay Hong Trading</figcaption>
+</figure>
+<figure>
+<br><img src="littleSignBoard.JPG" class="factory">
+</figure>
 <div class="google-map">
 <h2 class="we-are-here" >我們在這里</h2>
 <iframe width="600" height="500" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=3.130482%2C%20101.373571&key=AIzaSyDztzwRineYoWM2dnl3ki4Q8jYNJ6SmfSE" allowfullscreen></iframe> 

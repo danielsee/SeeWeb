@@ -82,6 +82,7 @@ nav{
 {
 height:200px;
  width:200px;
+ 
 }
 
 .phone {
@@ -239,7 +240,7 @@ a.google-form{
 
 body {
  background: #111;
- font-family: "Open Sans",  Impact;
+
 }
 
 .area {
