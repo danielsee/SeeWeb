@@ -5,7 +5,7 @@ width: 80%;
 height: 80%;
 }
 img{
-/*display image*/
+/*display image*/ 
 /*for displaying in center */
 display: block;
 margin: auto;
@@ -209,9 +209,75 @@ width:100%;
 
 
 
+/*lighting effect font css   area is the class name*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+ background: #111;
+ font-family: "Open Sans",  Impact;
+}
+
+.area {
+  text-align: start;
+
+  font-size: 2.5em;
+  color: red;
+  letter-spacing: -7px; 
+  font-weight: 700;
+  text-transform: uppercase;
+  animation: blur 3s infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
 
 
+/*neon light effect font*/
 
+.neon{
+text-shadow: 0 0 10px #fff,
+0 0 20px lawngreen,
+0 0 30px lawngreen,
+0 0 40px lawngreen,
+0 0 70px lawngreen,
+0 0 80px lawngreen,
+0 0 100px lawngreen,
+0 0 150px lawngreen;
+}
+
+/*neon light effect font*/
+
+/* end of lighting effect font css*/
+
+
+h1{
+
+  text-align: justify;
+  overflow: visible;
+  margin: 100px;
+ /*  margin-left: 80px;*/
+}
 
 
 

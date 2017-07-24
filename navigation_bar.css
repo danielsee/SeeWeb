@@ -1,4 +1,20 @@
 ﻿
+h1{
+
+  text-align: justify;
+  overflow: visible;
+  margin: 50px;
+   margin-left: 80px;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
 img{
 /*display image*/
 /*for displaying in center */
@@ -16,6 +32,7 @@ a.menu{
     background-color:black;
    /* padding: 0.8em;*/
    padding: 0.8em;
+   font-size: 1.2em;
 }
 
 a:link {
@@ -53,7 +70,7 @@ ul.menu_bar{
 	  }
 nav{
     width: 100%;
-    height:30%;
+    height:33%;
     background-color:black;
     position: fixed;
 	z-index:2;
@@ -216,6 +233,80 @@ a.google-form{
 	100% { opacity: 0; }
 }
 /*end blink*/
+
+/*lighting effect font css    area is the class name*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+ background: #111;
+ font-family: "Open Sans",  Impact;
+}
+
+.area {
+  text-align: start;
+  font-size: 2.5em;
+  color: red;
+  letter-spacing: -7px;
+  font-weight: 700;
+  text-transform: uppercase;
+  animation: blur 3s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
+
+
+
+/* end of lighting effect font css*/
+
+
+
+/*neon light effect font*/
+
+.neon{
+text-shadow: 0 0 10px #fff,
+0 0 20px lawngreen,
+0 0 30px lawngreen,
+0 0 40px lawngreen,
+0 0 70px lawngreen,
+0 0 80px lawngreen,
+0 0 100px lawngreen,
+0 0 150px lawngreen;
+}
+
+/*neon light effect font*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*HTML nav bar codes*/
