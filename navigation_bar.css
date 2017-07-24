@@ -56,7 +56,7 @@ li.menu_bar_li{
     margin-bottom: 3%;
     margin-left: 5%;
     font-weight: bolder;
-  
+    text-decoration: none;
     }
     li{
         list-style: none;
