@@ -94,12 +94,12 @@ font-family: Montserrat, sans-serif", serif;
 <br/><br/>
 <!--picture slide show  -->
 <p class="break"></p>
-<div class="w3-content w3-section " style="max-width:50%; max-height: 50%; margin-left: 30%; margin-right: 10%;">
+<div class="w3-content w3-section " style="max-width:50%; max-height: 50%; margin-left: 25%; margin-right: 10%;">
   <img class="mySlides w3-animate-fading" src="slideDucting1.jpg" >
   <img class="mySlides w3-animate-fading" src="slideDucting2.jpg" >
   <img class="mySlides w3-animate-fading" src="slideDucting3.jpg">
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)" style="margin-left: 18%">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)" style="margin-right: 10%">&#10095;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)" style="margin-right: 19%">&#10095;</button>
 </div>
 
 <!--end picture shilde show -->
@@ -138,7 +138,7 @@ font-family: Montserrat, sans-serif", serif;
 
 <p class="footer">@ Gay Hong Trading 2017 Credited-Daniel See  </p>
 <script>
-
+/*mouse click sliding*/
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -155,8 +155,22 @@ function showDivs(n) {
      x[i].style.display = "none";  
   }
   x[slideIndex-1].style.display = "block";  
+  
 }
 
+/*auto sliding
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); /*秒數變換
+}*/
 </script>
 </body>
 

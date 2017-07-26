@@ -45,7 +45,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "mobile_nav.css";
    head.appendChild(link);
-   alert("4.2  pm");
+   alert("4.4 pm");
    return link;
 // }
 
