@@ -8,6 +8,14 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="icon" href="two.JPG">
 <script src="javascript.js"></script>
 <title>Ducting Service</title>
@@ -85,12 +93,13 @@ font-family: Montserrat, sans-serif", serif;
 <br/><br/><br/><br/>
 <br/><br/>
 <!--picture slide show  -->
-<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides w3-animate-fading" src="Products/angle bar.jpg" >
-  <img class="mySlides w3-animate-fading" src="Products/gas bottle.jpg" style="max-width: 200% " >
-  <img class="mySlides w3-animate-fading" src="Products/download.jpg" style="max-width: 200% ">
-  <!--<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>-->
+
+<div class="w3-content w3-section " style="max-width:50%; max-height: 50%; margin-left: 30%; margin-right: 10%;">
+  <img class="mySlides w3-animate-fading" src="slideDucting1.jpg" >
+  <img class="mySlides w3-animate-fading" src="slideDucting2.jpg" >
+  <img class="mySlides w3-animate-fading" src="slideDucting3.jpg">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)" style="margin-left: 18%">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)" style="margin-right: 10%">&#10095;</button>
 </div>
 
 <!--end picture shilde show -->
@@ -100,22 +109,55 @@ font-family: Montserrat, sans-serif", serif;
 <body>
 
 <br><br><br><br><br>
-<p>This is a normal text paragraph which contains so many characters
-that it will most probably be split into several lines by a browser.This is a normal text paragraph which contains so many characters
-that it will most probably be split into several lines by a browser.This is a normal text paragraph which contains so many characters
 
+
+<a href="tel:0122822342" class="btn btn-info btn-lg button-hover phone"  >
+<span class="glyphicon glyphicon-earphone"></span> Call to Mr Alex See for Ducting Service
+</a>
+
+<br><br>
+<div class="wrapper">
+<div class="button">
+ <i class="fa fa-whatsapp fa-5x blink"></i>
+    <button type="button" class="btn btn-info">
+   <a href="https://api.whatsapp.com/send?phone=60122822342" class="button-hover" ><b>Contact me on Whatsapp</b></a>
+   </button>
+
+
+
+
+
+
+
+<!-- 
 <img class="mySlides background-pic" src="Ducting/air_ducting.jpg" width="392">
-<img class="mySlides background-pic" src="Ducting/pipeline.jpg" width="373">
+<img class="mySlides background-pic" src="Ducting/pipeline.jpg" width="373"> -->
 
 
-that it will most probably be split into several lines by a browser.This is a normal text paragraph which contains so many characters
-that it will most probably be split into several lines by a browser.This is a normal text paragraph which contains so many characters
-that it will most probably be split into several lines by a browser.This is a normal text paragraph which contains so many characters
-that it will most probably be split into several lines by a browser.</p>
 
 
 <p class="footer">@ Gay Hong Trading 2017 Credited-Daniel See  </p>
+<script>
 
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+</script>
 </body>
 
 </html>
