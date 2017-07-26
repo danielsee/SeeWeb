@@ -25,7 +25,7 @@ min-height:50%;
 	
     }
 a{
-    color: red
+    color: red 
 }
 a.menu{
     margin-left: 2%;
@@ -303,6 +303,19 @@ text-shadow: 0 0 10px #fff,
 
 
 
+.w3-display-container,.zoom{
+	size: 80%;
+	-moz-transition:-moz-transform 0.5s ease-in; 
+-webkit-transition:-webkit-transform 0.5s ease-in; 
+-o-transition:-o-transform 0.5s ease-in;
+
+}
+ 
+.w3-display-container:hover,.zoom:hover{
+-moz-transform:scale(1.2); 
+-webkit-transform:scale(1.2);
+-o-transform:scale(1.2);
+}
 
 
 

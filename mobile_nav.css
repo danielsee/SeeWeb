@@ -280,6 +280,19 @@ h1{
 }
 
 
+.w3-display-container,.zoom{
+	size: 120%;
+	-moz-transition:-moz-transform 0.5s ease-in; 
+-webkit-transition:-webkit-transform 0.5s ease-in; 
+-o-transition:-o-transform 0.5s ease-in;
+
+}
+ 
+.w3-display-container:hover,.zoom:hover{
+-moz-transform:scale(1.2); 
+-webkit-transform:scale(1.2);
+-o-transform:scale(1.2);
+}
 
 
 /*HTML nav bar codes*/
@@ -345,7 +358,7 @@ li.menu_bar_li{
 	list-style: none ;
     position: relative ;
     float: left ;
-    width:20%;   
+    width:20%;    
     margin-bottom: 3%;
     margin-left: 1%;
     }
