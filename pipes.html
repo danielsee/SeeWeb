@@ -95,6 +95,7 @@ body{
 </div>
 </head>
 <body>
+  <p id="break"></p>
 <h2>Pipes Series Products</h2>
 <!--<div class="w3-row">
     <div class="w3-col l3 s6">
@@ -197,6 +198,18 @@ body{
 </div>
 </div>-->
 <p class="footer">@ Gay Hong Trading 2017 Credited-Daniel See  </p>
+<script>
+	
+	var w=window.outerWidth;
+if (w>500) 
+   {
+	
+    document.getElementById("break").innerHTML="";
+   }
+   else{
+document.getElementById("break").innerHTML="<br><br><br><br><br>";
 
+   }
+</script>
 </body>
 </html>

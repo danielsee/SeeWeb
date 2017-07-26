@@ -43,7 +43,7 @@ body{
 	
 }
 p{
-	text-align:left;
+	text-align:left; 
 	font-family: "Montserrat", sans-serif;
 	font-size: 1.4em;
    }
@@ -116,8 +116,10 @@ div.google-map{
 </head>
 
 <body>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<p style="text-align: center"><a href="#" class="google-form blink"><b>Tell us what you think (Google Forms)</b></a></p>
+	
+	<p id="break">ficl</p>
+<!--<br><br><br><br><br><br><br><br><br><br><br>-->
+<!-- <p style="text-align: center"><a href="#" class="google-form blink"><b>Tell us what you think (Google Forms)</b></a></p> -->
 <div class="info">
 <ul>
 <p class="title neon"><b>Gay Hong Trading Info</b></p>
@@ -150,6 +152,21 @@ div.google-map{
 
 <p class="footer">@ Gay Hong Trading 2017 Credited-Daniel See  </p>
 
+
+
+<script>
+	
+	var w=window.outerWidth;
+if (w>500) 
+   {
+	
+    document.getElementById("break").innerHTML="<br><br><br><br>";
+   }
+   else{
+document.getElementById("break").innerHTML="<br><br><br><br><br><br><br><br>";
+
+   }
+</script>
 </body>
 
 </html>

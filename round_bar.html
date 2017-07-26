@@ -93,6 +93,7 @@ p{
 </div>
 </head>
 <body>
+  <p id="break"></p>
 <h2>Round Bars Series Products</h2>
 <!--<div class="w3-row">
     <div class="w3-col l3 s6">
@@ -190,6 +191,18 @@ p{
 </div>-->
 <hr style="width: 100%">
 <footer font style="text-align: center">@ Gay Hong Trading 2017   </footer>
+<script>
+	
+	var w=window.outerWidth;
+if (w>500) 
+   {
+	
+    document.getElementById("break").innerHTML="";
+   }
+   else{
+document.getElementById("break").innerHTML="<br><br><br><br><br>";
 
+   }
+</script>
 </body>
 </html>
