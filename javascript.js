@@ -45,7 +45,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "mobile_nav.css";
    head.appendChild(link);
-   alert("5 change homepage slides   roundB and plates logo test");
+   alert("5 change homepage slides   roundB and plates logo test     whatsapp");
    return link;
 // }
 
