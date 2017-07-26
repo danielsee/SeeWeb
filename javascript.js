@@ -24,7 +24,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "navigation_bar.css";
    head.appendChild(link);
-   alert("ilatest");
+   alert("123");
    return link;
   } 
   
