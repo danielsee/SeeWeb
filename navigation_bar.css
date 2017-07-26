@@ -113,8 +113,18 @@ margin:auto;
     float:  left;
  width: 20%;
 
-     }
-.dropdown {
+}
+
+/**/
+    .dropdown {
+    list-style: none ;
+    position: relative;
+    display:list-item;
+    margin-bottom: 4%;
+     margin-left: 10%;
+     font-weight: bolder;
+  }
+.dropdown:hover {
     list-style: none ;
     position: relative;
     display:list-item;
