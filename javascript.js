@@ -45,7 +45,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "mobile_nav.css";
    head.appendChild(link);
-   //alert("to red and nav");
+   alert("3pm");
    return link;
 // }
 
