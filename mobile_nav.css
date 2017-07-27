@@ -12,7 +12,7 @@ img.last{
 }
 .button-L
 {
-margin-left: 1%; 
+margin-left: 4%; 
 width: 10%;
 height: 5%;
 margin-top: -15%;
@@ -27,15 +27,11 @@ height: 5%;
 /*slides in ducting*/
 
 
-
-
-
-
 /*slides in homepage*/
 img.mySlides{
 width:600px;
 height: 250px;
-margin-left: 10%; 
+margin-left: 15%; 
 margin-right: 10%;
 }
 
@@ -44,11 +40,11 @@ margin-right: 10%;
 margin-left: 1%;
 width: 10%;
 height: 5%;
-margin-top: 45%;
+margin-top: 35%;
 }
 .button-RR
 {
-margin-top: 45%;
+margin-top: 35%;
 margin-right: 1%;
 width: 10%;
 height: 5%;
