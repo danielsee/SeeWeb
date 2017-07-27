@@ -88,7 +88,7 @@ font-family: Montserrat, sans-serif", serif;
 </div>
 	<li>
  <a href="Homepage.html">
-<img src="latestLogo.JPG" alt="Gay Hong Trading" height="54" width="454" title="Gay Hong Trading"></a></li>
+<img src="latestLogo.JPG" class="logo" alt="Gay Hong Trading" height="54" width="454" title="Gay Hong Trading"></a></li>
 
 </ul>
 </nav>
@@ -96,7 +96,7 @@ font-family: Montserrat, sans-serif", serif;
 <br/><br/><br/><br/>
 <br/><br/><br/><br/>
 <br/><br/>
-<!--picture slide show  -->
+<!--picture slide show  BREAK BREAK -->
 <p class="break"></p>
 <h2 class="w3-center" style="font-weight: bolder">Our Project</h2>
 <div class="w3-content w3-section " style="max-width:50%; max-height: 50%; margin-left: 25%; margin-right: 10%;">
@@ -153,6 +153,16 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
   
 }
+if (w>500) 
+   {
+	
+    document.getElementById("break").innerHTML="";
+   }
+   else{
+document.getElementById("break").innerHTML="<br><br><br><br><br><br><br><br><br><br>";
+
+   }
+
 
 /*auto sliding
 carousel();
