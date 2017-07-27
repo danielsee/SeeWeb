@@ -45,7 +45,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "mobile_nav.css";
    head.appendChild(link);
-   alert("810 change homepage slides3  logo test page change break stuructural populartag");
+   alert("820 change homepage slides3  logo test page change "+w);
    return link;
 // }
 
