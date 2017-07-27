@@ -150,7 +150,7 @@ body,h1,h2,h3,h4,h5,h6{font-family: "Montserrat", sans-serif;}
  
  
  <img class="mySlides w3-animate-fading" src="slideDucting1.jpg" >
-  <img class="mySlides w3-animate-fading" src="slidePlate.jpg">
+  <img class="mySlides w3-animate-fading" src="slidePlate.jpg" style="display: block">
   <img class="mySlides w3-animate-fading" src="slideHollow.jpg" >
 <img class="mySlides w3-animate-fading" src="slideStructural.jpg" >
 
@@ -259,9 +259,10 @@ third
     //whatsapp problem  standardize(logo)  homepage slides   ducting info 
     //xiao mi phone problem (try viewport)  chinese
 
-var myIndex = 0;
+
 carousel();
 function carousel() {
+    var myIndex = 0;
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
@@ -272,6 +273,17 @@ function carousel() {
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 3000); /*秒數變換*/
     }
+
+	var w=window.outerWidth;
+if (w>500) 
+   {
+	
+    document.getElementById("break").innerHTML="";
+   }
+   else{
+document.getElementById("break").innerHTML="<br><br>";
+
+   }
 
 	
 </script>
