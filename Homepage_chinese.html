@@ -1,46 +1,52 @@
-﻿<!--task to go
-1) drop  down menu for catogaries 
-2) confirm the map position
-3)finish all fuckign basic infos
-4)chinese version
-5)meta keyword
-7)homepage slide show auto plus manually
-
-
-
-******api kEY =AIzaSyDztzwRineYoWM2dnl3ki4Q8jYNJ6SmfSE
-
--->
-
+﻿
 <!DOCTYPE html>
 <html>
 
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <!--add meta keyword -->
-<title>藝豐貿易：主頁
-</title>
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+
+<link rel="icon" href="two.JPG">
+<title>藝豐貿易：主頁</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="icon" href="two.JPG">
+
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <script src="javascript.js"></script>
+<!--for the chrome browser tab icon usage-->
+
 <style type="text/css">
-
-
-img{
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+img{  
 /*display image*/
 /*for displaying in center */
 display: block;
 margin: auto;
-max-width: 100%; 
-min-height:50%;
-	}
+max-width: 150%; 
 
+/*max-height:80%;*/
+	}
 body{
-  	overflow: auto;
+	overflow: auto;
 	margin:  auto; 
 	max-width: 100%;
 	min-width:20%;
@@ -48,37 +54,25 @@ body{
 	background-repeat: repeat;
 	background-position: center;
 	color: white;
-	
 }
-
-
 p{
 	text-align: center;
 	font-family: "Montserrat", sans-serif;
 	font-size: 1em;
    }
-   
 div.products{
-   
-	
 	font-size:large;
 	font-family: "Montserrat", sans-serif;
 	font-weight: bold ;
 }
  tr{
-	border-style:solid;
-    
-    }
-    
+	border-style:solid;}
 td.example{
 	min-width: 50%;
 	max-width: 100%;
 	text-align: left ;
-	padding: 1em;
-
-	    
+	padding: 1em;    
 }
-
 table {
 	position: relative;
 	margin-left: 5%;
@@ -86,8 +80,6 @@ table {
 	max-width: 100%;
 	min-width: 60%;
 }
-
-
 body,h1,h2,h3,h4,h5,h6{font-family: "Montserrat", sans-serif;}
 
 /*Image zooom in css*/
@@ -98,163 +90,97 @@ body,h1,h2,h3,h4,h5,h6{font-family: "Montserrat", sans-serif;}
    -ms-transition: all 2s ease; 
    transition: all 2s ease;
  }
-
-
  .zoomin:hover
   { 
   width: 300px; 
   height: 300px; 
   }
- /*Image zooming in */
- 
- .auto-style1 {
-	margin-left: 71px;
-	margin-bottom: 7px;
-}
- .mySlides {display:none;}
-  </style>
 
-<!--comment -->
-
+ /*.mySlides {display:none;
+ height: 120%;width: 120%;}*/
+ </style>
 <!--Menu Bar -->
 
 <nav>
 <ul class="menu_bar">
-<li class="menu_bar_li" ><a href="About Us.html" class="menu">關於我們</a></li>
-<li class="menu_bar_li"><a href="Ducting_Services.html" class="menu">風喉冷氣</a></li>
-<li class="menu_bar_li">
-<a href="Homepage.html" class="menu">English Version</a></li>
-
+<li class="menu_bar_li"><a href="About Us.html" class="menu">關於我們</a></li>
+<li class="menu_bar_li" ><a href="Ducting_Services.html" class="menu">風喉冷氣</a></li>
+<li class="menu_bar_li" >
+<a href="Homepage_chinese.html" class="menu ">English Version</a></li>
 <div class="dropdown">
 <li  class="dropbtn">
 <a href="#" class="menu">商品種類</a>
 <div class="dropdown-content">
-    <a href="round_bar.html"class="w3-animate-zoom">圓鐵</a>
-    <a href="structural_steel.html"class="w3-animate-zoom">Structural Steel結構鉄</a>
+    <a href="round_bar.html"class="w3-animate-zoom">Round Bar</a>
+    <a href="structural_steel.html"class="w3-animate-zoom">Structural Steel</a>
     <a href="hollow_section.html"class="w3-animate-zoom">Hollow Sections</a>
-
 	<a href="pipes.html"class="w3-animate-zoom">Pipes</a>
 	<a href="bars.html"class="w3-animate-zoom">Bars</a>
 	<a href="plates.html"class="w3-animate-zoom">Plates</a>
-
-
-    <a href="others.html"class="w3-animate-zoom">其他</a>
+	<a href="others.html"class="w3-animate-zoom">Others</a>
 
   </div>
 </li>
 </div>
+<br><br>
 
-<img src="latestLogo.JPG" alt="Gay Hong Trading"   height="54" width="454"></ul>
+ <a href="Homepage_chinese.html">
+<img src="latestLogo.JPG" alt="Gay Hong Trading" class="logo " height="54" width="454" >
+</a>
+ 
+</ul>
 </nav>
-
-<br/><br/><br/><br/>
-<br/><br/><br/><br/>
-<br/><br/>
-<!--picture slide show  -->
-<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides w3-animate-fading" src="Products/angle bar.jpg" >
-  <img class="mySlides w3-animate-fading" src="Products/gas bottle.jpg" style="max-width: 200% " >
-  <img class="mySlides w3-animate-fading" src="Products/download.jpg" style="max-width: 200% ">
-  <img class="mySlides w3-animate-fading" src="Products/aluminium.jpg" style="max-width: 200% " >
-  <!--<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>-->
-</div>
-
-<!--end picture shilde show -->
-
-<h2>熱銷產品</h2>
 </head>
 <body>
-<br><br>
-<div class="products">
-<table  border="3">
-<thead >
-<tr>
-<th>商品圖片</th>
-<th>商品名稱
-</th>
-<th></th>
-<th>詳情</th>
-</tr>
 
-</thead>
+<p id="break"></p>
+<h1>歡迎來到 <p class="area">藝豐貿易  </p> 您或許能找到所需的材料和工具。 <br><br><p class="blink neon"><b> Quality Assusrance, our Obligation</b></p></h1> 
 
-<tr>
+ 
+ 
+<!--picture slide show  -->
+<h2 class="w3-center" style="font-weight: bolder">我們的商品</h2>
+<div class="w3-content w3-section ">
+  <img class="mySlides w3-animate-fading" src="slidePlate.JPG" >
+  <img class="mySlides w3-animate-fading" src="slideStructural.JPG" >
+  <img class="mySlides w3-animate-fading" src="slideHollow.JPG">
 
-<td class="example" >
-<img src="Products/angle bar.jpg"  alt="Angle Bar" class="zoomin" > </td>
-
-<td>Angle Bar</td>
-
-<td>                 </td>
-
-<td>
-<ul>
-<li>Previously was <s>RM20</s></li>
-<li>RM10-15 per bar</li>
-<li>Stainless steel</li>
-<li>Rust Resistance</li>
-</ul>
-</td>
-</tr>
-
-<!--2nd product-->
-<tr>
-
-<td class="example" ><img src="Products/flat bar.jpg"alt="Flat Bar" class="zoomin" > </td>
-
-<td>Flat Bar</td>
-
-<td></td>
-
-<td>
-<ul>
-<li>Previously was <s>RM100</s></li>
-<li>RM90-92 per bar</li>
-<li>Class A quality standard</li>
-<li>Rust Resistance</li>
-<li>Certified by international standard policy bobobobob bobobob</li>
-
-</ul>
-</td>
-</tr>
-<!--third-->
-<tr>
-
-<td class="example" ><img src="Products/pvc pipe.jpg"alt="PVC Pipe" class="zoomin" > </td>
-
-<td>PVC Pipe</td>
-
-<td></td>
-
-<td>
-<ul>
-<li>Previously was <s>RM100</s></li>
-<li>RM90-92 per bar</li>
-<li>Class A quality standard</li>
-<li>Rust Resistance</li>
-<li>Certified by international standard policy</li>
-
-</ul>
-</td>
-</tr>
-
-
-
-
-
-</table>
+  <button class="w3-button w3-black w3-display-left button-LL" onclick="plusDivs(-1)" >&#10094;</button>
+  <button class="w3-button w3-black w3-display-right button-RR" onclick="plusDivs(1)" >&#10095;</button>
 </div>
 
+<br><br>
 
-<br/><br/>
-<p class="footer">@ Gay Hong Trading 2017 Credited-Daniel See  </p>
+ <a href="tel:0123180533" class="btn btn-info btn-lg button-hover phone">
+<span class="glyphicon glyphicon-earphone"></span>撥打 Ms Tang電話詢問
+</a>
 
-<!--Java script start -->
+<br><br>
+<div class="wrapper" >
+<div class="button">
+ <i class="fa fa-whatsapp fa-5x blink"></i>
+    <button type="button" class="btn btn-info">
+   <a href="https://api.whatsapp.com:/send?phone=60123180533" class="button-hover" ><b>通過Whatsapp 詢問 Ms Tang</b></a>
+   </button>
+
+<br><br>
+
+<button type="button" class="btn btn-info"> 
+<a href="https://api.whatsapp.com:/send?text=<<分享-藝豐貿易網頁（品質保證，我們的職責）-- www.gayhong.gq>>" data-action="share/whatsapp/share" class="button-hover"><b>Share our page via Whatsapp</b></a>
+ </button> 
+
+</div></div>
+
+<!-- <a href="https://api.whatsapp.com/send?phone=15551234567">Send Message whatsapp</a>
+<a href="intent://send/01120433089#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end">test whatsapp send </a> -->
+
+<p class="footer">@ 藝豐貿易 2017 Credited-Daniel See  </p>
+
+
 <script>
-/*
-(click button text script)
 
+    // homepage ducting  slides button position    ducting info  
+    //  chinese ： ：主頁 test
 
 var slideIndex = 1;
 showDivs(slideIndex);
@@ -272,13 +198,23 @@ function showDivs(n) {
      x[i].style.display = "none";  
   }
   x[slideIndex-1].style.display = "block";  
+  
 }
+var w=window.outerWidth;
+if (w>500) 
+   {
+	
+    document.getElementById("break").innerHTML="<br><br><br><br><br><br><br><br><br><br><br><br><br><br>";
+   }
+   else{
+document.getElementById("break").innerHTML="<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>";
 
-*/
+   }
 
-var myIndex = 0;
+
+
+ var myIndex = 0;
 carousel();
-
 function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
@@ -288,11 +224,9 @@ function carousel() {
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}    
     x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 3000); /*秒數變換*/
-    }
+    setTimeout(carousel, 3000); 
+}
 </script>
-<!--Java script end -->
-
 </body>
 
 </html>

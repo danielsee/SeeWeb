@@ -24,7 +24,6 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "navigation_bar.css";
    head.appendChild(link);
-   /*alert("123");*/
    return link;
   } 
   
@@ -45,12 +44,12 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "mobile_nav.css";
    head.appendChild(link);
-   alert("945  change homepage & ducting slides "+w);
+   alert("10pm 27-7/17 chinese homepage"+w);
    return link;
 // }
  
   }
-
+//api kEY =AIzaSyDztzwRineYoWM2dnl3ki4Q8jYNJ6SmfSE
 }
 /*
 (click button text script)
