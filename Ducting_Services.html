@@ -45,18 +45,12 @@ body,h1,h2,h3,h4,h5,h6{font-family: "Montserrat", sans-serif;}
 p{
  
 	text-align: center;
-font-family: Montserrat, sans-serif", serif;
 	font-size: 1em ;
 	margin-left: 10%;
 	margin-right: 10%;
 	width:80%;
    }
 
-.duct-info{
-
-
-}
-   
   </style>
 
 
@@ -99,13 +93,13 @@ font-family: Montserrat, sans-serif", serif;
 <!--picture slide show  BREAK BREAK -->
 <p id="break"></p>
 <h2 class="w3-center" style="font-weight: bolder">Our Project</h2>
-<div class="w3-content w3-section " style="max-width:50%; max-height: 50%; margin-left: 25%; margin-right: 10%;">
+<div class="w3-content w3-section">
   <img class="mySlides w3-animate-fading" src="slideDucting1.jpg" >
   <img class="mySlides w3-animate-fading" src="slideDucting2.jpg" >
   <img class="mySlides w3-animate-fading" src="slideDucting3.jpg">
-   <img class="mySlides w3-animate-fading" src="slideDucting4.jpg">
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)" style="margin-left: 18%">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)" style="margin-right: 19%">&#10095;</button>
+   <img class="mySlides w3-animate-fading last" src="slideDucting4.jpg">
+  <button class="w3-button w3-black w3-display-left button-L" onclick="plusDivs(-1)" >&#10094;</button>
+  <button class="w3-button w3-black w3-display-right  button-R" onclick="plusDivs(1)" >&#10095;</button>
 </div>
 
 <!--end picture shilde show -->
@@ -134,7 +128,7 @@ font-family: Montserrat, sans-serif", serif;
 
 <p class="footer">@ Gay Hong Trading 2017 Credited-Daniel See  </p>
 <script>
-/*mouse click sliding
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -152,7 +146,8 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
   
-}*/
+}
+var w=window.outerWidth;
 if (w>500) 
    {
 	

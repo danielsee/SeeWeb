@@ -17,7 +17,7 @@
 
 
 <link rel="icon" href="two.JPG">
-<title>Gay Hong Trading :Homepage</title>
+<title>Homepage</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -103,8 +103,9 @@ body,h1,h2,h3,h4,h5,h6{font-family: "Montserrat", sans-serif;}
   width: 300px; 
   height: 300px; 
   }
- /*Image zooming in */
- .mySlides {display:none;}
+
+ /*.mySlides {display:none;
+ height: 120%;width: 120%;}*/
  </style>
 <!--Menu Bar -->
 
@@ -137,24 +138,23 @@ body,h1,h2,h3,h4,h5,h6{font-family: "Montserrat", sans-serif;}
  
 </ul>
 </nav>
+</head>
+<body>
 
-<br/><br/><br/><br/>
-<br/><br/><br/><br/>
-<br/><br/><br/>
 <p id="break"></p>
 <h1>Welcome to <p class="area">Gay-Hong-Trading </p> you might get your useful meterials. <br><br><p class="blink neon"><b> Quality Assusrance, our Obligation</b></p></h1> 
 
  
-
+ 
 <!--picture slide show  -->
-<div class="w3-content w3-section" style="max-width:50%; max-height: 50%; margin-left: 12%; margin-right: 15%;" >
- 
- 
- <img class="mySlides w3-animate-fading" src="slideDucting1.jpg" >
-  <img class="mySlides w3-animate-fading" src="slidePlate.JPG">
-  <img class="mySlides w3-animate-fading" src="slideHollow.JPG" >
-<img class="mySlides w3-animate-fading" src="slideStructural.JPG" >
+<h2 class="w3-center" style="font-weight: bolder">Our Products</h2>
+<div class="w3-content w3-section ">
+  <img class="mySlides w3-animate-fading" src="slidePlate.JPG" >
+  <img class="mySlides w3-animate-fading" src="slideStructural.JPG" >
+  <img class="mySlides w3-animate-fading" src="slideHollow.JPG">
 
+  <button class="w3-button w3-black w3-display-left button-LL" onclick="plusDivs(-1)" >&#10094;</button>
+  <button class="w3-button w3-black w3-display-right button-RR" onclick="plusDivs(1)" >&#10095;</button>
 </div>
 
 
@@ -253,10 +253,40 @@ third
     // homepage slides   ducting info 
     //  chinese
 
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+  
+}
+var w=window.outerWidth;
+if (w>500) 
+   {
+	
+    document.getElementById("break").innerHTML="<br><br><br><br><br><br><br><br><br><br><br><br><br><br>";
+   }
+   else{
+document.getElementById("break").innerHTML="<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>";
+
+   }
+
+
+
  var myIndex = 0;
 carousel();
 function carousel() {
-   
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
@@ -265,24 +295,9 @@ function carousel() {
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}    
     x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 3000); /*秒數變換*/
-    }
-
-	var w=window.outerWidth;
-if (w>500) 
-   {
-	
-    document.getElementById("break").innerHTML="";
-   }
-   else{
-document.getElementById("break").innerHTML="<br><br>";
-
-   }
-
-	
+    setTimeout(carousel, 3000); 
+}
 </script>
-
-
 </body>
 
 </html>
