@@ -45,7 +45,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "mobile_nav.css";
    head.appendChild(link);
-   alert("1730   change homepage & ducting slides "+w);
+   alert("918  change homepage & ducting slides "+w);
    return link;
 // }
  
