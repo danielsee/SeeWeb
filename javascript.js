@@ -45,7 +45,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "mobile_nav.css";
    head.appendChild(link);
-   alert("11 change homepage slides test   ducting "+w);
+   alert("1110 change homepage slides test   ducting break"+w);
    return link;
 // }
 
