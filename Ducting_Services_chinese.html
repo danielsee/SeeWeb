@@ -8,8 +8,17 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="icon" href="two.JPG">
-<title>藝豐：風喉冷氣</title>
+<script src="javascript.js"></script>
+<title>Ducting Service</title>
 
 <style type="text/css" >
 img{
@@ -19,91 +28,152 @@ display: block;
 margin: auto;
 max-width: 100%; 
 min-height:50%;
-
 	}
 
-
 body{
-
-	margin:  0px; 
+	overflow: auto;
+	margin:  auto; 
 	background-image:url('two.jpg');
 	background-repeat: repeat;
 	background-position: center;
 	color: white;
+
 	
 }
-
+body,h1,h2,h3,h4,h5,h6{font-family: "Montserrat", sans-serif;}
 
 p{
+ 
 	text-align: center;
-	font-family: "Montserrat", sans-serif;
 	font-size: 1em ;
 	margin-left: 10%;
 	margin-right: 10%;
 	width:80%;
-
    }
+
   </style>
 
+
 <!--Menu Bar -->
+<header>
 <nav>
 <ul class="menu_bar">
-<li class="menu_bar_li"><a href="About Us_chinese.html" class="menu">關於我們</a></li>
+<li class="menu_bar_li"><a href="About Us.html" class="menu">關於我們</a></li>
 <li class="menu_bar_li"><a href="#" class="menu self" title="You have selected this page" onclick="self_chinese()">風喉冷氣</a></li>
-<li class="menu_bar_li" >
-<a href="Ducting_Services.html" class="menu">English Version</a></li>
+<li class="menu_bar_li">
+<a href="Ducting_Services.html" class="menu"><b>English Version</b></a></li>
 
 <div class="dropdown">
 <li  class="dropbtn">
-<a href="#" class="menu">商品種類</a>
+<a href="#" class="menu" >商品種類</a>
 <div class="dropdown-content">
-      <a href="Categories.html"class="w3-animate-zoom">圓鐵</a>
-    <a href="Categories.html"class="w3-animate-zoom">Structural Steel結構鉄</a>
+    <a href="round_bar.html"class="w3-animate-zoom">Round Bar</a>
+    <a href="structural_steel.html"class="w3-animate-zoom">Structural Steel</a>
 	<a href="hollow_section.html"class="w3-animate-zoom">Hollow Sections</a>
 
 	<a href="pipes.html"class="w3-animate-zoom">Pipes</a>
 	<a href="bars.html"class="w3-animate-zoom">Bars</a>
 	<a href="plates.html"class="w3-animate-zoom">Plates</a>
 
-    <a href="Categories.html"class="w3-animate-zoom">其他</a>
+    <a href="others.html"class="w3-animate-zoom">Others</a>
+
   </div>
 </li>
 </div>
 	<li>
-<a href="Homepage_chinese.html">
-<img src="latestLogo.JPG" alt="Gay Hong Trading" height="54" width="454" title="Gay Hong Trading"></a></li>
+ <a href="Homepage.html">
+<img src="latestLogo.JPG" class="logo" alt="Gay Hong Trading" height="54" width="454" title="Gay Hong Trading"></a></li>
+
 </ul>
 </nav>
+</header>
 <br/><br/><br/><br/>
 <br/><br/><br/><br/>
 <br/><br/>
-<!--picture slide show  -->
-<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides w3-animate-fading" src="Products/angle bar.jpg" >
-  <img class="mySlides w3-animate-fading" src="Products/gas bottle.jpg" style="max-width: 200% " >
-  <img class="mySlides w3-animate-fading" src="Products/download.jpg" style="max-width: 200% ">
-  <!--<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>-->
+<!--picture slide show  BREAK BREAK -->
+<p id="break"></p>
+<h2 class="w3-center" style="font-weight: bolder">Our Project</h2>
+<div class="w3-content w3-section">
+  <img class="mySlides w3-animate-fading" src="slideDucting1.jpg" >
+  <img class="mySlides w3-animate-fading" src="slideDucting2.jpg" >
+  <img class="mySlides w3-animate-fading" src="slideDucting3.jpg">
+   <img class="mySlides w3-animate-fading last" src="slideDucting4.jpg">
+  <button class="w3-button w3-black w3-display-left button-L" onclick="plusDivs(-1)" >&#10094;</button>
+  <button class="w3-button w3-black w3-display-right  button-R" onclick="plusDivs(1)" >&#10095;</button>
 </div>
 
-<!--end picture shilde show -->
+<!--end picture shilde show --> 
 
 </head>
 
 <body>
 
 <br><br><br><br><br>
-<p>This is a normal text paragraph which contains so many characters
-that it will most probably be split into several lines by a browser.This is a normal text paragraph which contains so many characters
-that it will most probably be split into several lines by a browser.This is a normal text paragraph which contains so many characters
 
-<img class="mySlides background-pic" src="Ducting/air_ducting.jpg" width="392">
-<img class="mySlides background-pic" src="Ducting/pipeline.jpg" width="373">
+<h1 style="line-height: 60px;">我們團隊在風喉冷氣行業里有超過20來年的經驗.<br><br> 特別是室内的風喉冷氣系統也包括廚房的排氣系統. <br><br>除了風喉冷氣安裝以外, 我們也能解決一系列的問題包括冷氣漏水和溫度失調。<br><br><p class="blink neon" style="color:black"><b>品質保證， 我們的職責</b></p></h1> 
 
-browse</p>
 
-<script src="javascript.js"></script>
+<a href="tel:0122822342" class="btn btn-info btn-lg button-hover phone"  >
+<span class="glyphicon glyphicon-earphone"></span> 撥打Alex See電話詢問
+</a>
+
+<br><br>
+<div class="wrapper">
+<div class="button">
+ <i class="fa fa-whatsapp fa-5x blink"></i>
+    <button type="button" class="btn btn-info">
+   <a href="https://api.whatsapp.com/send?phone=60122822342" class="button-hover" ><b>通過Whatsapp鏈路：Alex See  </b></a>
+   </button>
+
+
 <p class="footer">@ Gay Hong Trading 2017 Credited-Daniel See  </p>
+<script>
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+  
+}
+var w=window.outerWidth;
+if (w>500) 
+   {
+	
+    document.getElementById("break").innerHTML="";
+   }
+   else{
+document.getElementById("break").innerHTML="<br><br><br><br><br><br><br><br><br><br>";
+
+   }
+
+
+
+ var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); 
+}
+</script>
 </body>
 
 </html>
