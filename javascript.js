@@ -24,7 +24,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "navigation_bar.css";
    head.appendChild(link);
-   alert("123");
+   /*alert("123");*/
    return link;
   } 
   
@@ -45,7 +45,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "mobile_nav.css";
    head.appendChild(link);
-   alert("950 change homepage slides3   ducting "+w);
+   alert("1020 change homepage slides test   ducting "+w);
    return link;
 // }
 
