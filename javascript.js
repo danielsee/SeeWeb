@@ -45,7 +45,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "mobile_nav.css";
    head.appendChild(link);
-   alert("945 change homepage slides3  logo test page   whatsapp3");
+   alert("800 change homepage slides3  logo test page change mobile nav");
    return link;
 // }
 
