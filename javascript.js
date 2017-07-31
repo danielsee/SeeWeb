@@ -45,7 +45,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "mobile_nav.css";
    head.appendChild(link);
-   alert("330pm whatsapp test(home)   chinese homepage"+w);
+   alert("530pm whatsapp test(home)  *search result chinese homepage"+w);
    return link;
 // }
  
