@@ -378,39 +378,3 @@ text-shadow: 0 0 10px #fff,
 
 
 
-
-
-
-/*HTML nav bar codes*/
-
-
-/*<header>
-<nav>
-<h1 style="left: 0px; top: 0px; width: 457px; height: 65px">
-<img src="logo_new.JPG" alt="Gay Hong Trading" class="auto-style1" width="403" height="80">
-<h4 align="right" style="color: white">Search Products Keyword
-<input type="text" name="search" size="25" >
-<input type="submit" name="confirm" value="confirm ">
-</h4>
-</h1>
-<ul class="menu_bar">
-<li class="menu_bar_li" ><a href="About Us.html" class="menu">ABOUT US</a></li>
-<li class="menu_bar_li"><a href="Ducting_Services.html" class="menu">Ducting Services</a></li>
-<div class="dropdown">
-<li  class="dropbtn">
-<a href="#" class="menu"  style="padding: 1em">Categories</a>
-<div class="dropdown-content">
-    <a href="Categories.html"class="w3-animate-zoom">Zinc</a>
-    <a href="Categories.html"class="w3-animate-zoom">PVC</a>
-    <a href="Categories.html"class="w3-animate-zoom">Metal</a>
-     <a href="Categories.html"class="w3-animate-zoom">Aluminium</a>
-    <a href="Categories.html" class="w3-animate-zoom">Pipe</a>
-  </div>
-</li>
-</div>
-<li class="menu_bar_li" style="float: right "><a href="Homepage_chinese.html" class="menu">中文版</a></li>
-</ul>
-</nav>
-</header>
-*/
-
