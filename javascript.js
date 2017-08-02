@@ -24,7 +24,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "navigation_bar.css";
    head.appendChild(link);
-   alert("meta in");
+   alert("meta test");
    return link;
   } 
   
@@ -45,7 +45,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "mobile_nav.css";
    head.appendChild(link);
-   alert("545 whatsapp test(home)  *search result chinese homepage"+w);
+   alert("1000 chinese homepage"+w);
    return link;
 // }
  
