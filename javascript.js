@@ -45,7 +45,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "mobile_nav.css";
    head.appendChild(link);
-   alert("1000 chinese homepage"+w);
+   alert("1030 product img size chinese homepage"+w);
    return link;
 // }
  
