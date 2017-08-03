@@ -24,7 +24,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "navigation_bar.css";
    head.appendChild(link);
-   alert("meta test");
+   alert("meta test   fouc");
    return link;
   } 
   
@@ -45,7 +45,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "mobile_nav.css";
    head.appendChild(link);
-   alert("1030 product img size chinese homepage"+w);
+   alert("10am product img size   chinese homepage"+w);
    return link;
 // }
  
