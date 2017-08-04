@@ -6,7 +6,6 @@ margin-left: 15%;
 margin-right: 10%;
 }
 img.last{
-
     width:600px;
     height: 250px;
 }
@@ -108,13 +107,13 @@ nav{
 	z-index:2;
 	
 }
-.product
-{/*test here*/
+/*.product
+{/*test here
 height:600px;
 width:300px;
 
 
-}
+}*/
 .dropbtn {
     list-style: none ;
 	text-align: center ;
@@ -347,119 +346,3 @@ h1{
 -webkit-transform:scale(1.2);
 -o-transform:scale(1.2);
 }
-
-
-/*HTML nav bar codes*/
-
-
-/*<header>
-<nav>
-<h1 style="left: 0px; top: 0px; width: 457px; height: 65px">
-<img src="logo_new.JPG" alt="Gay Hong Trading" class="auto-style1" width="403" height="80">
-<h4 align="right" style="color: white">Search Products Keyword
-<input type="text" name="search" size="25" >
-<input type="submit" name="confirm" value="confirm ">
-</h4>
-</h1>
-<ul class="menu_bar">
-<li class="menu_bar_li" ><a href="About Us.html" class="menu">ABOUT US</a></li>
-<li class="menu_bar_li"><a href="Ducting_Services.html" class="menu">Ducting Services</a></li>
-<div class="dropdown">
-<li  class="dropbtn">
-<a href="#" class="menu"  style="padding: 1em">Categories</a>
-<div class="dropdown-content">
-    <a href="Categories.html"class="w3-animate-zoom">Zinc</a>
-    <a href="Categories.html"class="w3-animate-zoom">PVC</a>
-    <a href="Categories.html"class="w3-animate-zoom">Metal</a>
-     <a href="Categories.html"class="w3-animate-zoom">Aluminium</a>
-    <a href="Categories.html" class="w3-animate-zoom">Pipe</a>
-  </div>
-</li>
-</div>
-<li class="menu_bar_li" style="float: right "><a href="Homepage_chinese.html" class="menu">中文版</a></li>
-</ul>
-</nav>
-</header>
-*/
-
-
-
-
-
-
-
-
-
-
-/*
-previous version of mobile css
-img{
- size:100%;
- max-height: 50%;
-}
-.mobile_nav_element
-{
-font-size: 0.9em;
-width:40%;
-height: 120%;
-margin-left: 0.5%;
-font-weight: bold;
-float: left;
-/*padding: 0.1em;
-
-}
-li.menu_bar_li{  
-	list-style: none ;
-    position: relative ;
-    float: left ;
-    width:20%;    
-    margin-bottom: 3%;
-    margin-left: 1%;
-    }
-a.menu{
-   margin-left: 0.5%;
-    background-color:black;
- /*   padding: 0.8em;
- width: 120%;
-  height: 120%;
-       no overlap text occur
-  white-space:nowrap;
-  overflow:hidden;
- 
-}
-
-
-#change{
-    height:150px;
-    
-}
-.dropdown {
-    list-style: none ;
-    position: relative;
-    display:list-item;
-    margin-bottom: 10%;
-    margin-left: 1%;
-   
-  }
-
-    .dropbtn {
-    list-style: none ;
-	text-align: center ;
-    cursor: pointer;
-    float:  left;
-    width: 10%;
-   
-     }
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: black;
-    min-width:30%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    font-size:1em;
-
-    margin-left: 4%;
-    }
-*/
