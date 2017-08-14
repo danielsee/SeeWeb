@@ -45,7 +45,7 @@ detectmob();
    link.rel = 'stylesheet';
    link.href = "mobile_nav.css";
    head.appendChild(link);
-   alert("3pm product img size  chinese homepage slide"+w);
+   alert("9am");
    return link;
 // }
  
